@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(pink,lightpink,hotpink);
+    height: 100vh;
+    width: 100%;
+}
+h1{
+    /* display: flex;
+ justify-content: center; */
+ text-align: center;
+ /* height: 10%; */
+ font-size: 2rem;
+ margin: 50px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.form{
+    
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* background-color: brown; */
+ /* margin-top: 200px; */
+ /* height: 60%; */
+ /* height: 100vh; */
+
+}
+.todo-main{
+    /* height: 5%; */
+    /* width: 10px; */
+ font-size: 2rem;
+ /* background-color: orange; */
+
+ }
+.todo-inp{
+    border: none;
+    outline: none;
+    height: 35px;
+    border-bottom: 2px solid black;
+    font-size: 17px;
+
+    margin-bottom: 10px;
+    width: 250px;
+    color: rgb(100, 88, 88);
+    margin-top: 30px;
+    padding: px;
+    border-radius: 3px;
+
+
+    
+}
+.todo-btn{
+    padding: 5px ;
+    cursor:pointer;
+    border: none;
+    background-color: rgb(69, 170, 173);
+    color: aliceblue;
+    height: 25px;
+    border-radius: 4px;
+    width: 55px;
+    font-size:12px;
+    
+ 
+
+}
+.todo-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: black; */
+     /* height: 30%;
+     margin-top: -250px;
+    margin-left: -200px;
+     */
+}
+.list-ul{
+    /* width: 30%; */
+    list-style: none;
+    /* margin-left: 140px; */
+    font-size: large;
+    color: rgb(5, 29, 28);
+}
+.cls-div{
+    display: flex;
+    /* background-color:rgb(3, 18, 19); */
+    margin: 5px;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 2rem;
+    translate: all 1s ease;
+    
+}
+.classDel{
+    background-color: rgb(150, 136, 136);
+    border: none;
+    color:rgb(8, 0, 2);
+    cursor: pointer;
+    /* height: 30px; */
+    height: 25px;
+    font-size:12px;
+
+    width: 55px;
+    border-radius: 4px;
+
+}
+input:focus::placeholder{
+    color:transparent;
+}
+input::placeholder{
+    font-size: 14px;
+}
+
